@@ -8,7 +8,6 @@
      height="512"
      xml:space="preserve">
   <title>Mohand</title>
-
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1A1A2E" stop-opacity="1"/>
@@ -23,34 +22,27 @@
       <stop offset="100%" stop-color="#FFB347" stop-opacity="1"/>
     </linearGradient>
   </defs>
-
   <!-- Background -->
   <rect x="0" y="0" width="512" height="512" rx="80" ry="80" fill="url(#bgGrad)"/>
-
   <!-- Grid dots -->
   <circle cx="80" cy="80" r="2" fill="#FF7A00" fill-opacity="0.2"/>
   <circle cx="432" cy="80" r="2" fill="#FF7A00" fill-opacity="0.2"/>
   <circle cx="80" cy="432" r="2" fill="#FF7A00" fill-opacity="0.2"/>
   <circle cx="432" cy="432" r="2" fill="#FF7A00" fill-opacity="0.2"/>
-
   <!-- Outer hex ring -->
   <polygon points="256,80 340,128 340,224 256,272 172,224 172,128"
            fill="none" stroke="#FF7A00" stroke-width="3" stroke-opacity="0.4"/>
-
   <!-- Inner hex -->
   <polygon points="256,104 322,142 322,218 256,256 190,218 190,142"
            fill="url(#hexGrad)" fill-opacity="0.12"/>
-
-  <!-- M -->
+  <!-- M letter -->
   <rect x="196" y="136" width="16" height="102" fill="#FFFFFF"/>
   <rect x="300" y="136" width="16" height="102" fill="#FFFFFF"/>
   <polygon points="212,136 228,136 256,174 228,174" fill="#FFFFFF"/>
   <polygon points="300,136 284,136 256,174 284,174" fill="#FFFFFF"/>
   <polygon points="246,136 266,136 256,156" fill="#FF7A00"/>
-
   <!-- Accent line -->
   <rect x="190" y="248" width="132" height="4" rx="2" ry="2" fill="url(#accentGrad)"/>
-
   <!-- Hex corner dots -->
   <circle cx="256" cy="80" r="5" fill="#FF7A00"/>
   <circle cx="340" cy="128" r="4" fill="#FF7A00" fill-opacity="0.7"/>
@@ -58,4 +50,13 @@
   <circle cx="256" cy="272" r="5" fill="#FF7A00"/>
   <circle cx="172" cy="224" r="4" fill="#FF7A00" fill-opacity="0.7"/>
   <circle cx="172" cy="128" r="4" fill="#FF7A00" fill-opacity="0.7"/>
+  <!-- TEXT: "Mohand" -->
+  <text x="256" y="385"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="72"
+        font-weight="bold"
+        fill="#FFFFFF"
+        text-anchor="middle">Mohand</text>
+  <!-- Bottom line -->
+  <rect x="156" y="410" width="200" height="1.5" rx="1" ry="1" fill="#FF7A00" fill-opacity="0.3"/>
 </svg>
