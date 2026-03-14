@@ -27,43 +27,38 @@
     </linearGradient>
   </defs>
 
-  <!-- Background dark rounded square -->
+  <!-- Background -->
   <rect x="0" y="0" width="512" height="512" rx="80" ry="80" fill="url(#bgGrad)"/>
 
-  <!-- Subtle grid dots tech pattern -->
+  <!-- Grid dots -->
   <circle cx="80" cy="80" r="2" fill="#FF7A00" fill-opacity="0.2"/>
-  <circle cx="160" cy="80" r="2" fill="#FF7A00" fill-opacity="0.15"/>
-  <circle cx="352" cy="80" r="2" fill="#FF7A00" fill-opacity="0.15"/>
   <circle cx="432" cy="80" r="2" fill="#FF7A00" fill-opacity="0.2"/>
   <circle cx="80" cy="432" r="2" fill="#FF7A00" fill-opacity="0.2"/>
   <circle cx="432" cy="432" r="2" fill="#FF7A00" fill-opacity="0.2"/>
-  <circle cx="80" cy="256" r="2" fill="#FF7A00" fill-opacity="0.1"/>
-  <circle cx="432" cy="256" r="2" fill="#FF7A00" fill-opacity="0.1"/>
 
-  <!-- Hexagon shape (tech symbol) -->
   <!-- Outer hex ring -->
   <polygon points="256,80 340,128 340,224 256,272 172,224 172,128"
            fill="none" stroke="#FF7A00" stroke-width="3" stroke-opacity="0.4"/>
-  <!-- Inner hex filled -->
+  <!-- Inner hex -->
   <polygon points="256,104 322,142 322,218 256,256 190,218 190,142"
            fill="url(#hexGrad)" fill-opacity="0.12"/>
 
-  <!-- M letter - stylized geometric -->
-  <!-- Left vertical bar -->
-  <rect x="196" y="136" width="18" height="102" rx="4" fill="#FFFFFF"/>
-  <!-- Right vertical bar -->
-  <rect x="298" y="136" width="18" height="102" rx="4" fill="#FFFFFF"/>
-  <!-- Left diagonal -->
-  <polygon points="214,136 232,136 256,182 214,182" fill="#FFFFFF"/>
-  <!-- Right diagonal -->
-  <polygon points="298,136 280,136 256,182 298,182" fill="#FFFFFF"/>
-  <!-- Center peak -->
-  <polygon points="244,136 268,136 256,164" fill="#FF7A00"/>
+  <!-- M letter - clean outline path, no fill overlap -->
+  <!-- Left bar -->
+  <rect x="196" y="136" width="16" height="102" fill="#FFFFFF"/>
+  <!-- Right bar -->
+  <rect x="300" y="136" width="16" height="102" fill="#FFFFFF"/>
+  <!-- Left diagonal arm -->
+  <polygon points="212,136 228,136 256,174 228,174" fill="#FFFFFF"/>
+  <!-- Right diagonal arm -->
+  <polygon points="300,136 284,136 256,174 284,174" fill="#FFFFFF"/>
+  <!-- Orange center peak -->
+  <polygon points="246,136 266,136 256,156" fill="#FF7A00"/>
 
-  <!-- Orange accent line under M -->
+  <!-- Orange accent line -->
   <rect x="190" y="248" width="132" height="4" rx="2" fill="url(#accentGrad)"/>
 
-  <!-- Circuit dots on hex corners -->
+  <!-- Hex corner dots -->
   <circle cx="256" cy="80" r="5" fill="#FF7A00"/>
   <circle cx="340" cy="128" r="4" fill="#FF7A00" fill-opacity="0.7"/>
   <circle cx="340" cy="224" r="4" fill="#FF7A00" fill-opacity="0.7"/>
@@ -80,7 +75,7 @@
         text-anchor="middle"
         letter-spacing="6">Mohand</text>
 
-  <!-- Bottom subtle line -->
+  <!-- Bottom line -->
   <rect x="156" y="410" width="200" height="1.5" rx="1" fill="#FF7A00" fill-opacity="0.3"/>
 
 </svg>
