@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG Tiny PS//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny-ps.dtd">
 <svg xmlns="http://www.w3.org/2000/svg"
-     version="1.1"
+     version="1.2"
      baseProfile="tiny-ps"
-     id="Layer_1"
-     x="0px"
-     y="0px"
      viewBox="0 0 512 512"
-     xml:space="preserve"
      width="512"
-     height="512">
+     height="512"
+     xml:space="preserve">
   <title>Mohand</title>
 
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1A1A2E;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0F0F1E;stop-opacity:1" />
+      <stop offset="0%" stop-color="#1A1A2E" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0F0F1E" stop-opacity="1"/>
     </linearGradient>
     <linearGradient id="hexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FF7A00;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#E55A00;stop-opacity:1" />
+      <stop offset="0%" stop-color="#FF7A00" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#E55A00" stop-opacity="1"/>
     </linearGradient>
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#FF7A00;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FFB347;stop-opacity:1" />
+      <stop offset="0%" stop-color="#FF7A00" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFB347" stop-opacity="1"/>
     </linearGradient>
   </defs>
 
@@ -39,24 +36,20 @@
   <!-- Outer hex ring -->
   <polygon points="256,80 340,128 340,224 256,272 172,224 172,128"
            fill="none" stroke="#FF7A00" stroke-width="3" stroke-opacity="0.4"/>
+
   <!-- Inner hex -->
   <polygon points="256,104 322,142 322,218 256,256 190,218 190,142"
            fill="url(#hexGrad)" fill-opacity="0.12"/>
 
-  <!-- M letter - clean outline path, no fill overlap -->
-  <!-- Left bar -->
+  <!-- M -->
   <rect x="196" y="136" width="16" height="102" fill="#FFFFFF"/>
-  <!-- Right bar -->
   <rect x="300" y="136" width="16" height="102" fill="#FFFFFF"/>
-  <!-- Left diagonal arm -->
   <polygon points="212,136 228,136 256,174 228,174" fill="#FFFFFF"/>
-  <!-- Right diagonal arm -->
   <polygon points="300,136 284,136 256,174 284,174" fill="#FFFFFF"/>
-  <!-- Orange center peak -->
   <polygon points="246,136 266,136 256,156" fill="#FF7A00"/>
 
-  <!-- Orange accent line -->
-  <rect x="190" y="248" width="132" height="4" rx="2" fill="url(#accentGrad)"/>
+  <!-- Accent line -->
+  <rect x="190" y="248" width="132" height="4" rx="2" ry="2" fill="url(#accentGrad)"/>
 
   <!-- Hex corner dots -->
   <circle cx="256" cy="80" r="5" fill="#FF7A00"/>
@@ -65,17 +58,4 @@
   <circle cx="256" cy="272" r="5" fill="#FF7A00"/>
   <circle cx="172" cy="224" r="4" fill="#FF7A00" fill-opacity="0.7"/>
   <circle cx="172" cy="128" r="4" fill="#FF7A00" fill-opacity="0.7"/>
-
-  <!-- TEXT: "Mohand" -->
-  <text x="256" y="385"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="72"
-        font-weight="bold"
-        fill="#FFFFFF"
-        text-anchor="middle"
-        letter-spacing="6">Mohand</text>
-
-  <!-- Bottom line -->
-  <rect x="156" y="410" width="200" height="1.5" rx="1" fill="#FF7A00" fill-opacity="0.3"/>
-
 </svg>
